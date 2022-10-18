@@ -101,5 +101,5 @@ function botaoFinalizar(){
 function abrirwp(){
     let pedido = "Olá, gostaria de fazer o pedido:\n- Prato: " + nomeP + "\n- Bebida: " + nomeB + "\n- Sobremesa: " + nomeS + "\nTotal: R$ " + precoPedido.toFixed(2);
     const link = encodeURIComponent(pedido);
-    const abrir = window.open("https://wa.me/5565992517154?text=" + link);
+    const abrir = window.open("https://wa.me/55999999999?text=" + link);
 }
